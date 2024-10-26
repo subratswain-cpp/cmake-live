@@ -111,6 +111,9 @@ If you haven’t installed WSL yet, you can do so by running this command in `Po
 
 #### INSTALLING CMAKE
 
+Download the installer from: https://cmake.org/download/
+Install using following command.
+
 ```sh
     sudo ./cmake-3.30.5-linux-x86_64.sh --skip-license --prefix=/usr
 ```
