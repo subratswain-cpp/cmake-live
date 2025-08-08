@@ -1,4 +1,5 @@
 # cmake-live
+Video lecture link: https://www.udemy.com/course/cmake-mastery-from-fundamentals-to-expert-practices/?referralCode=D5CB75F3FC8BEC84CAA9
 
 ## README FOR DEVELOPERS
 
