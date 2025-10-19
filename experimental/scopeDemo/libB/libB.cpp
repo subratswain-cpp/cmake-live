@@ -6,6 +6,6 @@
 
 void funB() {
     funA();
-    std::cout << "I am funB(Updated)\n" << '\n';
+    std::cout << "I am funB(Updated-2)\n" << '\n';
 
 }

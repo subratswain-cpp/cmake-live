@@ -7,4 +7,5 @@ add_library(libB STATIC libB.cpp)
 target_include_directories(libB INTERFACE .)
 
 # target_link_libraries(libB PRIVATE libA) # PUBLIC: Works PRIVATE: best choice
-target_link_libraries(libB PUBLIC libA)
+# target_link_libraries(libB PUBLIC libA) # Usecase-1
+target_link_libraries(libB PRIVATE libA) # Usecase-2
