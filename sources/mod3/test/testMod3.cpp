@@ -4,6 +4,6 @@
 
 int main() {
 
-    fun();
+    mod3::fun();
     std::cout << "I am inside main() of dynamicLib test.\n";
 }

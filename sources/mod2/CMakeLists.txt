@@ -3,6 +3,10 @@ project(genStaticLib)
 
 add_library(myStaticLib src/mod2.cpp)
 
+target_include_directories(myStaticLib INTERFACE include) # Mandetory SCOPE
+target_include_directories(myStaticLib PRIVATE .) # Mandetory SCOPE
+
+# Testing the Library
 add_executable(testlibrary test/testMod2.cpp)
 
 # Link the library(myStaticLib) with testlibrary executable
