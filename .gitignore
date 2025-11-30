@@ -7,6 +7,11 @@
 *.o
 *.obj
 
+# Build and other directories
+build/
+.DS_Store
+.vscode/
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -30,6 +35,9 @@
 *.exe
 *.out
 *.app
+
+# For my refernce
+subrat-README.md
 
 # Future release plan
 tools
