@@ -17,5 +17,7 @@ int main() {
     std::cout << "Sum = " << HeaderOnlyLibrary::sum(5, 3) << '\n';
     std::cout << "Diff = " << HeaderOnlyLibrary::diff(5, 3) << '\n';
 
+    std::cout << "We have successfuly built and run the executables in MAC, Win & Linux OS\n";
+
     return 0;
 }
