@@ -78,7 +78,7 @@ jobs:
         echo "Runiing executables..."
         if [ "${{ matrix.os }}" = "windows-latest" ]; then
           echo "Windows OS"
-          ./build/bin/mod5.exe
+          ./build/bin/Release/mod5.exe
         else
           echo "Not In Windows OS"
           ./build/project/mod5/mod5
