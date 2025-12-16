@@ -76,9 +76,9 @@ jobs:
     - name: Run executable
       run: |
         echo "Runiing executables..."
-        if [ "${{ matrix.os }}" = "Windwos" ]; then
+        if [ "${{ matrix.os }}" = "Windows" ]; then
           ./build/bin/mod5.exe
         else
-          ./build/mod5/mod5
+          ./build/project/mod5/mod5
         fi
-      
+      shell: bash
