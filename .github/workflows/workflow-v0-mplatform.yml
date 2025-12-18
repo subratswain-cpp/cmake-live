@@ -2,12 +2,14 @@
 # See: https://github.com/actions/starter-workflows/blob/main/ci/cmake-single-platform.yml
 name: Auto-Project#1(CMake on multiple platforms)
 
+# TODO: Uncomment line 7-10 for triggering auto build.
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+  # push:
+  #   branches: [ "main" ]
+  # pull_request:
+  #   branches: [ "main" ]
+  workflow_dispatch:
+  
 jobs:
   build:
     runs-on: ${{ matrix.os }}
